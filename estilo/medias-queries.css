@@ -1,0 +1,163 @@
+@media screen and (min-width: 320px) and (max-width: 375px){
+   
+
+    li, a{
+        
+        font-size: 12px;
+    }
+
+    .sobreMim__parag{
+        margin-top: 0em;
+        font-size: 0.86em;
+    }
+
+    
+
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 1024px){
+   
+    .titulo{
+        margin: auto;
+       text-align: center;
+    }
+
+    .paragrafo{
+        margin-left: 0.50em;
+        padding: 1em;
+    }
+
+    .botao__inicial{
+        width: 12em;
+        margin-left: 5em;
+        
+    }
+
+    .imagem__freela{
+        margin-left: 4em;
+        margin-top: 12em;
+    }
+} 
+
+@media screen and (max-width: 980px){
+    .hambuguer, img{
+        margin-right: 5px;
+        display: block;
+        z-index: 999;
+    }
+
+    .menu{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        background-color: #5025d1ce;
+        width: 30%;
+        max-width: 250%;
+        padding: 100px 20px;
+        flex-direction: column;
+        transition: 0.6s ease;
+    }
+
+    .menu.active{
+        right: 0;
+    }
+
+    li, a{
+        padding: 0.70em;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+
+    .titulo{
+        font-size: 3em;
+        margin: auto;
+        text-align: center;
+    }
+
+    .paragrafo{
+        margin-left: 0.50em;
+        padding: 1em;
+    }
+
+    .botao__inicial{
+        width: 12em;
+        margin-left: 25em;
+        
+    }
+
+    .imagem__freela{
+        width: 30em;
+        margin-left: 30em;
+        margin-top: 10em;
+    }
+
+}
+
+@media screen and (max-width: 1440px){
+
+    body{
+        display: block;
+    }
+
+    .container div img{
+        display: block;
+    }
+     
+    .container{
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .container div{
+       margin-top: 1.50em;
+      
+       flex: 1 1 300px;
+    }
+
+    .titulo{
+        font-size: 2.50em;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans';
+        font-weight: 500;
+        margin-top: 3em;
+        text-align: center;
+        
+    }
+    
+    .img__fotos{
+        width: 90%;
+        height: 90%;
+        margin-left: 20px;
+        border-radius: 15px;
+       
+    }
+
+     .sobre__img{
+       display: block;
+      
+    }
+     
+    .rodape{
+        width: 100%;
+        height: 90px;
+        margin-top: 5em;
+        background-color: #5025d1ce ;
+    }
+
+}
+
+
+
+

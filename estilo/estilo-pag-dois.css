@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   width: 350px;
+   height: 100px;
+ 
+}
+
+header, body{
+   
+    overflow: hidden;
+    font-family: 'Mooli';
+    background-color: #5025D1;
+    
+
+}
+
+div.icon__seta-esquerda{
+    width: 2%;
+    margin-top: 0.30em;
+    margin-left: 1.30em;
+}
+
+.conteudo__principal{
+    margin-top: -100px;
+  
+}
+
+
+.titulo{
+    font-family: 'Tomorrow';
+    text-align: center;
+    color: #f1f2f3;
+    width: 10em;
+    font-size: 2.30em;
+    padding-top: -8em;
+    margin-left: 0.10em;
+}
+
+.paragrafo{
+    color: rgba(207, 207, 211, 0.616);
+    font-family: 'Tomorrow';
+    font-size: 0.85em;
+    font-weight: normal;
+    padding: 0.80em;
+    text-align: center;
+}
+
+
+.imagem__freela{
+    margin: 0;
+    width: 22em;
+   
+   
+
+}
+
+.botao__inicial{
+    width: 8em;
+    font-family: 'Tomorrow';
+    font-weight: 500;
+    color: #e1e3e7;
+    background-color: #7453da;
+    padding: 0.70em;
+    border: 2px solid rgba(255, 255, 255, 0.329);
+    margin-top: 3em;
+    margin-left: 4em;
+    border-radius: 10px;
+   
+}
+
+.botao__inicial:hover{
+    color: rgb(255, 255, 255);
+    background-color: #5025D1;
+    
+    
+}
